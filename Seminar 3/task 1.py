@@ -1,4 +1,4 @@
-list = [4, 7, 1, 10, 3]
+list = [4, 8, 1, 10, 3]
 print(list)
 
 sum = 0
