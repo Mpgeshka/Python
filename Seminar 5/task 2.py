@@ -1,7 +1,7 @@
 from random import randint
 
-candies = 500
-print(f'{candies} всего конфет')
+candies = 2021
+print(f'{candies} всего конфет лежит на столе')
 count = randint(1, 2)
 while candies > 0:
     count += 1
@@ -9,11 +9,11 @@ while candies > 0:
         if count == 2:
             print('ходит бот')
             quantity = 20
-            print(f'конфет изымаете бот {quantity}')
+            print(f'конфет изымает бот {quantity}')
         else:
             print('ходит бот')
             quantity = 29 - quantity
-            print(f'конфет изымаете бот {quantity}')
+            print(f'конфет изымает бот {quantity}')
     else:
         print('ходит игрок')
         quantity = int(input('Введите число конфет которое изымаете - '))
